@@ -1,0 +1,8 @@
+db:
+  name: 'space'
+  username: 'Kyson'
+  password: 'x8jJdpX2UdpIemi'
+  sync: true
+  port: 12000
+
+SECRET: '123456'

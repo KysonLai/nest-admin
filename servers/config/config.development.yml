@@ -1,0 +1,8 @@
+db:
+  name: 'testdb'
+  username: 'example'
+  password: 'zId*@Yi12Fyfe1JV426IjhbK'
+  sync: true
+  port: 3306
+
+SECRET: '123456'

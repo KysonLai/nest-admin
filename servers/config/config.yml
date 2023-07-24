@@ -1,0 +1,7 @@
+db:
+  host: 127.0.0.1
+
+log:
+  log_level: 'info'
+  log_on: 'true'
+  timestamp: 'true'

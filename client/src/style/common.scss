@@ -1,0 +1,45 @@
+$--bg-color: #f2f3f5;
+
+// 导航栏
+$--box-bg-color: #fff;
+
+// 颜色
+$--gray: #edeef0;
+$--blue: #18a0fb;
+$--green: #1bc47d;
+$--yellow: #f2bd00;
+$--orange: #f97f0f;
+$--red: #f24822;
+$--purple: #7b61ff;
+$--teal: #00b5ce;
+$--pink: #ee46d3;
+$--text-title: #333;
+$--text-desc: #666;
+$--text-tips: #999;
+
+.text-title {
+  color: $--text-title;
+}
+
+.text-desc {
+  color: $--text-desc;
+}
+
+.text-tips {
+  color: $--text-tips;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin am-translateY($translateY: -6px, $time: 0.3s) {
+  transition: all $time ease;
+  transform: translateY(0);
+
+  &:hover {
+    transform: translateY($translateY);
+  }
+}
